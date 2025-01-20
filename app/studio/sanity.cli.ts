@@ -6,5 +6,5 @@ export default defineCliConfig({
     projectId,
     dataset,
   },
-  studioHost: '<your-sanity-host-domain-origin>',
+  studioHost: 'presentation-tool',
 })

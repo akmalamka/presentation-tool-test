@@ -10,7 +10,7 @@
 This project is a monorepo that consist of two parts.
 
 - root: contains the main nuxt app
-- `app/cms`: contains the sanity studio
+- `app/studio`: contains the sanity studio
 
 You can also double check in `pnpm-workspace.yaml`.
 

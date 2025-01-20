@@ -45,7 +45,8 @@ pnpm dev:all
 
 To be able to reproduce the issue, first you need to make sure that the prensentation tools works in local. Make sure `SANITY_STUDIO_PREVIEW_URL` is empty in your `.env` file to be able to connect the sanity to your local server
 
-1. After starting development servers, open `http://localhost:3333/presentation` and make sure that it connects with the local nuxt app and you are able to make changes to the content via presentation mode.
+1. Add a dummy post to make our app displays some data via `http://localhost:3333`
+2. After starting development servers, open `http://localhost:3333/presentation` and make sure that it connects with the local nuxt app and you are able to make changes to the content via presentation mode.
 
 ## Deployments
 

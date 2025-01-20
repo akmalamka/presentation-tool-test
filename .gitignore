@@ -1,1 +1,15 @@
 node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+.DS_Store
+
+.vercel
+
+.firebase
+.firebaserc
+firebase.json

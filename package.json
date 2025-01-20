@@ -2,9 +2,35 @@
   "name": "sanity-template-nuxt-clean",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "dev": "pnpm -r dev",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:all": "pnpm --include-workspace-root --stream -r run dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "firebase deploy",
     "format": "prettier --cache --write ."
+  },
+  "devDependencies": {
+    "@nuxtjs/sanity": "^1.13.1",
+    "@sanity/types": "^3.67.1",
+    "@types/node": "^20.9.0",
+    "nuxt": "^3.14.0",
+    "postcss": "^8.4.49",
+    "postcss-nested": "^7.0.2",
+    "prettier": "^3.4.2",
+    "prettier-plugin-packagejson": "2.5.0"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@portabletext/vue": "^1.0.11",
+    "@sanity/image-url": "^1.1.0",
+    "groq": "^3.67.1"
   },
   "prettier": {
     "plugins": [
@@ -12,10 +38,5 @@
     ],
     "semi": false,
     "singleQuote": true
-  },
-  "devDependencies": {
-    "prettier": "^3.4.2",
-    "prettier-plugin-packagejson": "2.5.0"
-  },
-  "packageManager": "pnpm@9.15.0"
+  }
 }

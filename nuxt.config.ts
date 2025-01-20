@@ -34,6 +34,10 @@ export default defineNuxtConfig({
     preset: 'firebase',
   },
 
+  future: {
+    compatibilityVersion: 4,
+  },
+
   postcss: {
     plugins: {
       autoprefixer: {},

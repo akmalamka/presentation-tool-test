@@ -9,3 +9,7 @@ dist
 .DS_Store
 
 .vercel
+
+.firebase
+.firebaserc
+firebase.json

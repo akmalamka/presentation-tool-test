@@ -26,6 +26,14 @@ export default defineNuxtConfig({
       stega: true,
     },
   },
+
+  nitro: {
+    firebase: {
+      gen: 2,
+    },
+    preset: 'firebase',
+  },
+
   postcss: {
     plugins: {
       autoprefixer: {},
